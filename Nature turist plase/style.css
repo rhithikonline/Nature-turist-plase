@@ -1,0 +1,156 @@
+body{
+    position: absolute;
+    top: 0;
+    background: url(/images/background\ image/Places-To-Visit-In-Kerala.jpg) top center;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    margin: 0;
+    padding-left: 0;
+}
+
+/*navication bar*/
+.nav-bar{
+    text-shadow: #333;
+  }
+  
+  header {
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    display: flex;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo a {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .menu ul {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+  }
+  
+  .menu ul li {
+    margin: 0 10px;
+  }
+  
+  .menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .menu ul li a:hover {
+    color: #555;
+  }
+  
+  .menu-icon {
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    font-size: 24px;
+  }
+  
+  @media(max-width: 768px) {
+    .menu-icon {
+      display: block;
+    }
+    
+    .menu {
+      display: none;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      width: 100%;
+      background: #333;
+    }
+    
+    .menu.active {
+      display: block;
+    }
+    
+    .menu ul {
+      display: block;
+      text-align: center;
+    }
+    
+    .menu ul li {
+      display: block;
+      margin: 10px 0;
+    }
+    
+    .menu ul li a {
+      font-size: 18px;
+    }
+  }
+
+
+  /*white background */
+
+.white-background{
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    top: 565px;
+    margin: 0;
+    padding: 0  ;
+}
+
+/*slide photo*/
+
+.slide-photo{
+    display: flex;
+    height: 10rem;
+    gap: 1rem;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+  }
+
+.slide-photo > div {
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+
+.slide-photo > div:hover{
+    flex: 5;
+}
+
+  /*slide background image*/
+
+.slide-background{
+  background-color: #c3b85b;
+  padding: 10px 10px 10px 10px;
+  
+}  
+
+
+#photo{
+  position: absolute;
+  top: 40px;
+}
